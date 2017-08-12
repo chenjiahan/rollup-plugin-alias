@@ -1,9 +1,9 @@
 {
   "name": "zan-rollup-plugin-alias",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Resolves aliases with Rollup",
-  "main": "dist/rollup-plugin-alias.js",
-  "jsnext:main": "dist/rollup-plugin-alias.es2015.js",
+  "main": "dist/zan-rollup-plugin-alias.js",
+  "jsnext:main": "dist/zan-rollup-plugin-alias.es2015.js",
   "scripts": {
     "prebuild": "rimraf dist",
     "build": "rollup-babel-lib-bundler -f cjs,es6 src/index.js",
